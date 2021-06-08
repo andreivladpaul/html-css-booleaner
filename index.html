@@ -9,35 +9,36 @@
 </head>
 
 <body>
-
-    <nav>
+ <!-- nav  -->
+    <div class="nav">
         <img id="logo" src="img/logo.svg" alt="logo the booleaner">
-    </nav>
-
-    <header>
-        <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-        <h3> Scritto da <span id="autore">The Booleaner</span></h3>
-        <p>Il 10/10/2020</p>
-    </header>
-
-    <main>
+    </div>
+ <!-- header  -->
+    <section class="principale">
+        <header>
+            <h1>Internet deve essere al servizio del "bene pubblico": il    manifesto di Tim Berners-Lee</h1>
+            <h3> Scritto da <a href="#"> The Booleaner</a></h3>
+            <p id="subtitle">Il 10/10/2020</p>
+        </header>
+    <!-- main  -->
+        <main>
         <!-- sezione immagini  -->
         <section>
             <div>
-            <img src="img/tim-1.jpg" alt="tim berners al congresso">
-            <img src="img/tim-2.jpg" alt="semibusto di tim berners">
+                <img src="img/tim-1.jpg" alt="tim berners al congresso">
+                <img src="img/tim-2.jpg" alt="semibusto di tim berners">
             </div>
             <!-- descrizione immagini  -->
-            <div>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>
-            <div>2nd Photo: Wikimedia, by Paul Clarke</div>
+            <div class="sub-pictures">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>
+            <div class="sub-pictures">2nd Photo: Wikimedia, by Paul Clarke</div>
         </section>
         <!-- testo principale -->
         <div class="testo">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud <span class="evidenziato">exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
             </p>
         </div>
         <!-- elenco  -->
-        <div>
+        <div class="elenco">
             <ul>
                 <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                 </li>
@@ -49,50 +50,55 @@
         </div>
         
         <!-- tabella  -->
-        <div class="table">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor </td>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo,placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam natus harum.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo,placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam natus harum.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo,placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam natus harum.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+            <div class="table">
+                <table cellspacing=0>
+                    <thead>
+                        <tr>
+                            <th>Lorem ipsum dolor</th>
+                            <th>Lorem ipsum dolor</th>
+                            <th>Lorem ipsum dolor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="lightblue">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor </td>
+                            <td>Lorem ipsum dolor sit amet, consectetur     adipisicing elit. Accusantium eos quo,placeat   consectetur ullam fugiat similique perferendis    repellendus illo mollitia eveniet expedita a quia  modi. Totam saepe quibusdam natus harum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet, consectetur     adipisicing elit. Accusantium eos quo,placeat   consectetur ullam fugiat similique perferendis    repellendus illo mollitia eveniet expedita a quia  modi. Totam saepe quibusdam natus harum.
+                            </td>
+                        </tr>
+                        <tr class="lightblue">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Repellendus tenetur, ullam,    blanditiis dolore possimus aperiam ab non saepe    corrupti mollitia, nihil illo maiores temporibus nisi  eveniet enim quam. Voluptatem, qui?
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         <!-- fine table  -->
-    </main>
+            <div class="testo">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel <span class="evidenziato"> illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto</span> odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+            </div>
+
+        </main>
 
     <!-- footer  -->
-    <footer>
-        <h4>Potrebbe interessarti</h4>
-        <div class="img1">
-            <p> Lorem ipsum dolor</p>
-        </div>
-        <div class="img2">
-            <p> Lorem ipsum dolor</p>
-        </div>
-    </footer>
+        <footer>
+            <h4>Potrebbe interessarti</h4>
+            <div class="img img1">
+                <p > Lorem ipsum dolor</p>
+            </div>
+            <div class="img img2">
+              <p> Lorem ipsum dolor</p>
+            </div>
+        </footer>
+    </section>
     
 </body>
 </html>

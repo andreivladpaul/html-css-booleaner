@@ -1,3 +1,106 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+.nav {
+  width: 100%;
+  height: 60px;
+  background: url(../img/pattern.png);
+  background-size: 18%;
+  background-color: #4ea0ff;
+}
+
+#logo {
+  width: 100px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+.principale {
+  margin: 10px 5px;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+header h3 {
+  color: grey;
+}
+
+#subtitle {
+  font-size: 12px;
+  color: grey;
+}
+a {
+  color: #72c9ef;
+  text-decoration: none;
+}
+
+header p {
+  font-size: 12px;
+  color: grey;
+}
+
+.sub-pictures {
+  font-size: 10px;
+}
+.testo {
+  margin: 20px 0;
+}
+
+.evidenziato {
+  background-color: yellow;
+}
+.elenco {
+  margin: 20px 0;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+th {
+  width: 200px;
+  background-color: #20a9e5;
+  color: white;
+  font-weight: 200;
+  text-align: start;
+}
+
+.lightblue {
+  background-color: #b1e5f2;
+}
+
+h4 {
+  color: grey;
+}
+
+footer p {
+  font-size: 18px;
+  color: white;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.img1 {
+  background: url(../img/monitor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 209px;
+  height: 160px;
+  margin: 5px 0;
+}
+
+.img2 {
+  background: url(/img/graph.jpg);
+  background-size: cover;
+  width: 209px;
+  height: 160px;
 }
