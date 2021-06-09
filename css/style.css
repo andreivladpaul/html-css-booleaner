@@ -66,6 +66,10 @@ ul {
   padding-left: 15px;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 th {
   width: 200px;
   background-color: #20a9e5;
@@ -99,7 +103,7 @@ footer p {
 }
 
 .img2 {
-  background: url(/img/graph.jpg);
+  background: url(../img/graph.jpg);
   background-size: cover;
   width: 209px;
   height: 160px;
